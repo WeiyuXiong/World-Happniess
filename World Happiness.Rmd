@@ -238,6 +238,9 @@ ggplot(data = happy,mapping = aes(x=`Social support`,y=`Ladder score`,group=Afri
 Figure \ref{fig:Africa} shows that most non-African countries have higher Ladder scores than African countries, also non-African countries have higher social support and freedom to make life choice.
 
 # Conclusions {#sec:Conc}
-In question 1, by fitting the full model for six variables (critical factors) and comparing correlation between them, we found the “Freedom to make life choice” and “Social support” are most significant and also has the relatively high correlation with response variable “Ladder score”. Hence, we chose those two variables (the residuals all have mean zero), “Social support” and “Freedom to make life choices” to fit our model.
+1.  Due to "logged GDP per capita", “Freedom to make life choice” and “Social support” are most significant and  have the relatively high correlation with response variable “Ladder score”, we chose those three variables to fit our model. 
 
-In question 2, we discuss the difference between Africa and other countries. There are moderately strong positive linear relationships between “Ladder score” and “Social support”. Furthermore, the linear relationships between “Ladder score” and “Social support” in the most non-African countries is stronger than that in African countries. Similarly, there are moderately strong positive linear relationships between “Ladder score” and “Freedom to make life choice” and non-African countries have higher “Freedom to make life choice” compared with African countries.
+2. The linear relationships between "Ladder score" and "logged GDP per capita" in the most non-African countries is stronger than that in African countries. 
+
+3. Similarly, "Ladder score” has strong positive linear relationships with “Ladder score” and “Freedom to make life choice” and non-African countries have higher “Freedom to make life choice” and Social support” compared with African countries.
+
